@@ -87,26 +87,34 @@ const Navbar = () => {
           <ul className="space-y-2">
             <li>
               <a
-                className="block text-gray-900 font-medium px-3 py-2 rounded-md bg-white shadow-sm"
+                className="block text-(--secundaria) font-medium px-3 py-2 rounded-md bg-(--terciara) shadow-sm"
                 href="#"
               >
-                Home
+                Sobre
               </a>
             </li>
             <li>
               <a
-                className="block text-gray-600 hover:bg-gray-200 px-3 py-2 rounded-md"
+                className="block text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
                 href="#"
               >
-                Features
+                Habilidades
               </a>
             </li>
             <li>
               <a
-                className="block text-gray-600 hover:bg-gray-200 px-3 py-2 rounded-md"
+                className="block text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
                 href="#"
               >
-                Pricing
+                Projetos
+              </a>
+            </li>
+            <li>
+              <a
+                className="block text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
+                href="#"
+              >
+                Contato
               </a>
             </li>
           </ul>
