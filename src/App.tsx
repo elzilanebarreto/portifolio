@@ -1,7 +1,8 @@
 import FloatingLines from "./components/background/floatinglines/FloatingLines";
-import Destaque from "./components/destaque/Destaque";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
@@ -31,11 +32,15 @@ const App = () => {
         />
       </div>
 
-      <Navbar />
-      <div className="min-h-screen">
-        <Destaque />
-      </div>
-      <Footer />
+      <BrowserRouter>
+        <Navbar />
+        <div className="min-h-screen">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 };

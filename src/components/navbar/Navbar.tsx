@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,6 +46,9 @@ const Navbar = () => {
         {/* Menu grande (desktop) */}
         <div className="hidden lg:flex lg:items-center lg:space-x-4">
           <ul className="flex space-x-4">
+            {/* <li>
+              <Link to="/" className="text-(--secundaria) font-medium px-3 py-2 rounded-md bg-(--terciara) shadow-sm">Home</Link>
+            </li> */}
             <li>
               <a
                 className="text-(--secundaria) font-medium px-3 py-2 rounded-md bg-(--terciara) shadow-sm"
