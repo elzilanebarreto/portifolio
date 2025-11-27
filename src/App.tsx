@@ -1,4 +1,5 @@
 import FloatingLines from "./components/background/floatinglines/FloatingLines";
+import Destaque from "./components/destaque/Destaque";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 
@@ -31,7 +32,9 @@ const App = () => {
       </div>
 
       <Navbar />
-      <div className="min-h-screen"></div>
+      <div className="min-h-screen">
+        <Destaque />
+      </div>
       <Footer />
     </>
   );
