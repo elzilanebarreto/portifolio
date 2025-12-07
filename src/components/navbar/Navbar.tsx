@@ -18,7 +18,13 @@ const Navbar = () => {
   }, []);
 
   const scrollToSobre = () => {
-    navigate("/#sobre"); // navega para a Home e mantém o hash
+    navigate("/#sobre");
+    setIsOpen(false);
+  };
+
+  const scrollToHabilidade = () => {
+    navigate("/#habilidades");
+    setIsOpen(false);
   };
 
   return (
@@ -57,7 +63,7 @@ const Navbar = () => {
             </li> */}
             <li>
               <a
-                className="text-(--secundaria) font-medium px-3 py-2 rounded-md bg-(--terciara) shadow-sm cursor-pointer"
+                className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md cursor-pointer"
                 onClick={scrollToSobre}
               >
                 Sobre
@@ -65,8 +71,8 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
-                href="#"
+                className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md cursor-pointer"
+                onClick={scrollToHabilidade}
               >
                 Habilidades
               </a>
@@ -74,7 +80,7 @@ const Navbar = () => {
             <li>
               <a
                 className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
-                href="#"
+                href="#sobre"
               >
                 Projetos
               </a>

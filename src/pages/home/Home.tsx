@@ -1,17 +1,30 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Destaque from "../../components/destaque/Destaque";
 import Habilidades from "../../components/habilidades/Habilidades";
 import Sobre from "../../components/sobre/Sobre";
 
 function Home() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
+
   return (
     <>
       <Destaque />
 
-      <section id="sobre" className='smooth'>
+      <section id="sobre">
         <Sobre />
       </section>
 
-      <section id="habilidades" className='smooth'>
+      <section id="habilidades">
         <Habilidades />
       </section>
     </>
