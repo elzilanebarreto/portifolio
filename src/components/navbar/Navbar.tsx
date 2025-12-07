@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -14,6 +16,10 @@ const Navbar = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const scrollToSobre = () => {
+    navigate("/#sobre"); // navega para a Home e mantém o hash
+  };
 
   return (
     <nav className="shadow-md bg-(--terciara)/10">
@@ -51,8 +57,8 @@ const Navbar = () => {
             </li> */}
             <li>
               <a
-                className="text-(--secundaria) font-medium px-3 py-2 rounded-md bg-(--terciara) shadow-sm"
-                href="#"
+                className="text-(--secundaria) font-medium px-3 py-2 rounded-md bg-(--terciara) shadow-sm cursor-pointer"
+                onClick={scrollToSobre}
               >
                 Sobre
               </a>
