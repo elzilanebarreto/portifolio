@@ -69,7 +69,7 @@ vec3 background_color(vec2 uv) {
   float y = sin(uv.x - 0.2) * 0.3 - 0.1;
   float m = uv.y - y;
 
-  col += mix(PRIMARIA, BLACK, smoothstep(0.0, 1.0, abs(m)));
+  col += mix(BLACK, BLACK, smoothstep(0.0, 1.0, abs(m)));
   col += mix(PRIMARIA, BLACK, smoothstep(0.0, 1.0, abs(m)));
   return col * 0.5;
 }

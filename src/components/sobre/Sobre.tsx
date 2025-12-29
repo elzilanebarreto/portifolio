@@ -6,7 +6,7 @@ const Sobre = () => {
       <div className="flex flex-col lg:flex-row justify-around gap-10">
 
         <div className="flex justify-center items-center p-2">
-          <img className="border-4 rounded-full border-(--quaternaria) hover:border-(--quinternaria)" src="https://media.licdn.com/dms/image/v2/D4D03AQEFCRWHfqh6Mg/profile-displayphoto-scale_200_200/B4DZgLef.gGkAY-/0/1752539202030?e=1766016000&v=beta&t=BlO3r3y2Hfx_feRYzKI9qfLPOmd4VjhYF5OJaqzhlEA" alt="Imagem do linkedin" />
+          <img className="border-4 rounded-full border-(--quaternaria) hover:border-(--quinternaria)" src="https://media.licdn.com/dms/image/v2/D4D03AQEFCRWHfqh6Mg/profile-displayphoto-scale_200_200/B4DZgLef.gGkAY-/0/1752539202030?e=1768435200&v=beta&t=QjI_JUn4sBKz84PKOylmCWanXKj15dxEIxv14H7KZm0" alt="Imagem do linkedin" />
         </div>
 
         <div className="flex flex-1 flex-col gap-2 text-(--terciara) text-justify p-10">
