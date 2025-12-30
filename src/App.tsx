@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Projetos from "./pages/projetos/Projetos";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
         <div className="min-h-screen">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/projetos" element={<Projetos />} />
           </Routes>
         </div>
         <Footer />

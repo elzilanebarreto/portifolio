@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -82,7 +82,7 @@ const Navbar = () => {
                 className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
                 href="#sobre"
               >
-                Projetos
+                <Link to="/projetos"> Projetos </Link>
               </a>
             </li>
             <li>
