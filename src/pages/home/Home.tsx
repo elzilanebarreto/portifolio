@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Destaque from "../../components/destaque/Destaque";
 import Habilidades from "../../components/habilidades/Habilidades";
 import Sobre from "../../components/sobre/Sobre";
+import Curriculo from "../../components/curriculo/Curriculo";
 
 function Home() {
   const { hash } = useLocation();
@@ -18,6 +19,9 @@ function Home() {
 
   return (
     <>
+
+      <Curriculo />
+
       <Destaque />
 
       <section id="sobre">
