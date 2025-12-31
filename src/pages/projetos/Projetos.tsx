@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SpotlightCard from "../../components/cards/SpotlightCard";
+import Botao from "../../components/botao/Botao";
 
 function Projetos() {
   return (
@@ -26,9 +27,8 @@ function Projetos() {
           <div className="flex justify-center items-center mt-5">
             <Link
               to="/projetos/velofit"
-              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-3xl"
             >
-              Ver Detalhes
+              <Botao texto="Ver Detalhes" />
             </Link>
           </div>
         </SpotlightCard>
@@ -49,10 +49,8 @@ function Projetos() {
           </div>
           <div className="flex justify-center items-center mt-5">
             <Link
-              to="/"
-              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-3xl"
-            >
-              Ver Detalhes
+              to="/">
+              <Botao texto="Ver Detalhes" />
             </Link>
           </div>
         </SpotlightCard>
@@ -73,10 +71,8 @@ function Projetos() {
           </div>
           <div className="flex justify-center items-center mt-5">
             <Link
-              to="/"
-              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-3xl"
-            >
-              Ver Detalhes
+              to="/">
+              <Botao texto="Ver Detalhes" />
             </Link>
           </div>
         </SpotlightCard>

@@ -12,6 +12,7 @@ import {
   SiVite,
 } from "react-icons/si";
 import { Link } from "react-router-dom";
+import Botao from "../../../components/botao/Botao";
 import SpotlightCard from "../../../components/cards/SpotlightCard";
 
 function VeloFit() {
@@ -125,10 +126,8 @@ function VeloFit() {
             href="https://github.com/Grupo2-JS09/generation-react-veloFit"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-(--primaria) bg-(--quinternaria) border-2 border-(--quinternaria) hover:bg-(--quaternaria) font-black hover:text-(--secundaria) hover:border-(--primeria) px-4 py-3 rounded-2xl flex items-center gap-2"
           >
-            <SiGithub className="text-xl" />
-            <span>Repositório GitHub</span>
+            <Botao texto="Repositório GitHub" Icon={SiGithub} />
           </a>
         </div>
       </SpotlightCard>
