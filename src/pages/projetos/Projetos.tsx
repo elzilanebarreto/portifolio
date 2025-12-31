@@ -14,7 +14,7 @@ function Projetos() {
           className="border-2 hover:border-(--secundaria) transition-all duration-300 ease-linear hover:scale-102"
         >
           <div className="flex flex-col gap-2">
-            <h3 className="text-center text-(--quinternaria) font-bold">
+            <h3 className="text-center text-(--quinternaria) font-bold text-2xl">
               VeloFit - Gerenciamento de Academias
             </h3>
             <p className="text-justify text-(--quaternaria)">
@@ -25,8 +25,8 @@ function Projetos() {
           </div>
           <div className="flex justify-center items-center mt-5">
             <Link
-              to="/"
-              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-md"
+              to="/projetos/velofit"
+              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-3xl"
             >
               Ver Detalhes
             </Link>
@@ -38,7 +38,7 @@ function Projetos() {
           className="border-2 hover:border-(--secundaria) transition-all duration-300 ease-linear hover:scale-102"
         >
           <div className="flex flex-col gap-2">
-            <h3 className="text-center text-(--quinternaria) font-bold">
+            <h3 className="text-center text-(--quinternaria) font-bold text-2xl">
               VeloGo - Gerenciamento de Serviços de Transporte
             </h3>
             <p className="text-justify text-(--quaternaria)">
@@ -50,7 +50,7 @@ function Projetos() {
           <div className="flex justify-center items-center mt-5">
             <Link
               to="/"
-              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-md"
+              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-3xl"
             >
               Ver Detalhes
             </Link>
@@ -62,11 +62,11 @@ function Projetos() {
           className="border-2 hover:border-(--secundaria) transition-all duration-300 ease-linear hover:scale-102"
         >
           <div className="flex flex-col gap-2">
-            <h3 className="text-center text-(--quinternaria) font-bold">
-              Comunidade Renascer
+            <h3 className="text-center text-(--quinternaria) font-bold text-2xl">
+              Renascer Mulher - Comunidade para Mulheres
             </h3>
             <p className="text-justify text-(--quaternaria)">
-              "Plataforma de rede de apoio e comunidade digital, para
+              Plataforma de rede de apoio e comunidade digital, para
               compartilhamento de experiências e suporte mútuo entre mulheres em
               fase de maternidade.
             </p>
@@ -74,7 +74,7 @@ function Projetos() {
           <div className="flex justify-center items-center mt-5">
             <Link
               to="/"
-              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-md"
+              className="text-(--quaternaria) hover:bg-(--quinternaria) font-medium hover:text-(--secundaria) border-2 border-(--quaternaria) hover:border-(--quinternaria) px-3 py-2 rounded-3xl"
             >
               Ver Detalhes
             </Link>

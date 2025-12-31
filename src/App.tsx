@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projetos from "./pages/projetos/Projetos";
+import VeloFit from "./pages/projetos/velofit/VeloFit";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projetos" element={<Projetos />} />
+            <Route path="/projetos/velofit" element={<VeloFit />} />
           </Routes>
         </div>
         <Footer />
