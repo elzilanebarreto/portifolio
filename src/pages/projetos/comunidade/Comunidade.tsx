@@ -29,7 +29,7 @@ function Comunidade() {
             Renascer Mulher - Comunidade para Mulheres
           </h2>
 
-          <p className="text-(--terciara)">
+          <p className="text-(--terciara) text-justify">
             Aplicação web de impacto social desenvolvida em grupo utilizando
             React e Bootstrap, projetada para criar um ambiente seguro de
             acolhimento e suporte para mulheres. O projeto foca na construção de

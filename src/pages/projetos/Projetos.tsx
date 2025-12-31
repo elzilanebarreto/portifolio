@@ -49,7 +49,7 @@ function Projetos() {
           </div>
           <div className="flex justify-center items-center mt-5">
             <Link
-              to="/">
+              to="/projetos/velogo">
               <Botao texto="Ver Detalhes" />
             </Link>
           </div>
@@ -71,7 +71,7 @@ function Projetos() {
           </div>
           <div className="flex justify-center items-center mt-5">
             <Link
-              to="/">
+              to="/projetos/comunidade">
               <Botao texto="Ver Detalhes" />
             </Link>
           </div>

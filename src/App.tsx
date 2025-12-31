@@ -5,6 +5,8 @@ import Home from "./pages/home/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projetos from "./pages/projetos/Projetos";
 import VeloFit from "./pages/projetos/velofit/VeloFit";
+import VeloGo from "./pages/projetos/velogo/VeloGo";
+import Comunidade from "./pages/projetos/comunidade/Comunidade";
 
 const App = () => {
   return (
@@ -41,6 +43,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/projetos" element={<Projetos />} />
             <Route path="/projetos/velofit" element={<VeloFit />} />
+            <Route path="/projetos/velogo" element={<VeloGo />} />
+            <Route path="/projetos/comunidade" element={<Comunidade />} />
           </Routes>
         </div>
         <Footer />

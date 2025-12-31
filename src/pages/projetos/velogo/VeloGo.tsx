@@ -31,7 +31,7 @@ function VeloGo() {
              VeloGo - Gerenciamento de Serviços de Transporte
           </h2>
 
-          <p className="text-(--terciara)">
+          <p className="text-(--terciara) text-justify">
             Aplicação web desenvolvida em grupo utilizando React e TypeScript para o gerenciamento inteligente de serviços de transporte. O projeto foca em uma interface intuitiva para o controle de categorias e serviços, integrando um sistema de cálculo automático de corridas. A equipe priorizou o uso de componentes reutilizáveis com Tailwind CSS, garantindo uma aplicação performática, tipada e totalmente responsiva.
           </p>
         </div>

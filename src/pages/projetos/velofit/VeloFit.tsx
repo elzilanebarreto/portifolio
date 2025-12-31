@@ -33,7 +33,7 @@ function VeloFit() {
             VeloFit - Gerenciamento de Academias
           </h2>
 
-          <p className="text-(--terciara)">
+          <p className="text-(--terciara) text-justify">
             Aplicação web desenvolvida em grupo utilizando React e TypeScript
             para a gestão completa de uma academia. O projeto foca em uma
             interface intuitiva para controle de serviços e categorias. A equipe
