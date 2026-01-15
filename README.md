@@ -1,73 +1,59 @@
-# React + TypeScript + Vite
+# 💻 Meu Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do meu portfólio, onde apresento minha trajetória, habilidades e os principais projetos que desenvolvi como Desenvolvedora Full Stack.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## React Compiler
+Este projeto foi construído utilizando as tecnologias mais modernas do ecossistema Front-end para garantir performance e responsividade:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Framework Principal:** ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* **Estilização:** ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+* **Linguagem:** ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* **Ferramenta de Build:** ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 👩‍💻 Sobre Mim
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Sou **Elzilane Barreto**, Desenvolvedora Full Stack com base em Matemática Pura e Aplicada. Unindo a precisão analítica com o desenvolvimento web, foco em criar soluções que são, ao mesmo tempo, robustas no back-end e fluidas no front-end.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Back-end:** Java e Spring Boot.
+- **Front-end:** React, TypeScript e Tailwind CSS.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Habilidades Técnicas (Geral)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Linguagens** | Java, JavaScript, TypeScript, Python, PHP, C/C++ |
+| **Front-end** | React, Tailwind CSS, HTML5, CSS3 |
+| **Back-end** | Spring Boot, NestJS, Node.js |
+| **Bancos de Dados** | MySQL, MongoDB, PostgreSQL |
+| **DevOps & Ferramentas** | Docker, Git, GitHub |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📂 Projeto em Destaque: VeloFit
+
+O **VeloFit** é um sistema de gerenciamento de academias que exemplifica meu uso de **React** e **Tailwind**.
+- Gerenciamento dinâmico de categorias.
+- Consumo de API externa via Axios.
+- Interface totalmente responsiva e moderna.
+
+---
+
+## 📧 Contato
+
+Estou sempre aberta a novas conexões e oportunidades!
+
+- **Email:** [elzilanecardoso24@gmail.com](mailto:elzilanecardoso24@gmail.com)
+- **LinkedIn:** [linkedin.com/in/elzilanebarreto/](https://www.linkedin.com/in/elzilanebarreto/)
+
+---
+
+<p align="center">
+Desenvolvido por Elzilane Barreto © 2026
+</p>
