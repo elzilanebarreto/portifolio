@@ -5,7 +5,7 @@ const Destaque = () => {
   return (
     <div className="flex flex-col p-10 lg:flex-row justify-around gap-5">
       <div className="flex flex-col gap-3 flex-2 lg:max-w-3xl">
-        <h2 className="text-(--terciara) text-5xl font-bold">
+        <h2 className="text-(--quaternaria) text-5xl font-bold">
           Elzilane Barreto
         </h2>
         <h3 className="text-(--quinternaria) text-4xl font-extrabold">
