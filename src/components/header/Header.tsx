@@ -85,7 +85,6 @@ const Header = () => {
             <li>
               <a
                 className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
-                href="#sobre"
               >
                 <Link to="/projetos"> Projetos </Link>
               </a>
@@ -109,7 +108,7 @@ const Header = () => {
             <li>
               <a
                 className="block text-(--secundaria) font-medium px-3 py-2 rounded-md bg-(--terciara) shadow-sm"
-                href="#"
+                onClick={scrollToSobre}
               >
                 Sobre
               </a>
@@ -117,23 +116,22 @@ const Header = () => {
             <li>
               <a
                 className="block text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
-                href="#"
+                onClick={scrollToHabilidade}
               >
                 Habilidades
               </a>
             </li>
             <li>
               <a
-                className="block text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
-                href="#"
+                className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
               >
-                Projetos
+                <Link to="/projetos"> Projetos </Link>
               </a>
             </li>
             <li>
               <a
                 className="block text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
-                href="#"
+                onClick={scrollToContato}
               >
                 Contato
               </a>
