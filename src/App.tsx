@@ -1,12 +1,13 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FloatingLines from "./components/background/floatinglines/FloatingLines";
 import Footer from "./components/footer/Footer";
-import Navbar from "./components/navbar/Navbar";
+import Header from "./components/header/Header";
+import Contatos from "./pages/contatos/Contatos";
 import Home from "./pages/home/Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Comunidade from "./pages/projetos/comunidade/Comunidade";
 import Projetos from "./pages/projetos/Projetos";
 import VeloFit from "./pages/projetos/velofit/VeloFit";
 import VeloGo from "./pages/projetos/velogo/VeloGo";
-import Comunidade from "./pages/projetos/comunidade/Comunidade";
 
 const App = () => {
   return (
@@ -37,7 +38,7 @@ const App = () => {
       </div>
 
       <BrowserRouter>
-        <Navbar />
+        <Header />
         <div className="min-h-screen">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -45,6 +46,7 @@ const App = () => {
             <Route path="/projetos/velofit" element={<VeloFit />} />
             <Route path="/projetos/velogo" element={<VeloGo />} />
             <Route path="/projetos/comunidade" element={<Comunidade />} />
+            <Route path="/contatos" element={<Contatos />} />
           </Routes>
         </div>
         <Footer />

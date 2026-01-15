@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigate = useNavigate();
@@ -90,7 +90,7 @@ const Navbar = () => {
                 className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
                 href="#"
               >
-                Contato
+                <Link to="/contatos">Contato</Link>
               </a>
             </li>
           </ul>
@@ -140,4 +140,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
