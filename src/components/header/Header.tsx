@@ -83,11 +83,13 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a
+              <Link
+                to="/projetos"
                 className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
               >
-                <Link to="/projetos"> Projetos </Link>
-              </a>
+                {" "}
+                Projetos{" "}
+              </Link>
             </li>
             <li>
               <a
@@ -122,11 +124,13 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a
+              <Link
+                to="/projetos"
                 className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
               >
-                <Link to="/projetos"> Projetos </Link>
-              </a>
+                {" "}
+                Projetos{" "}
+              </Link>
             </li>
             <li>
               <a
