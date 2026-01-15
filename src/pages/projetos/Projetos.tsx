@@ -1,10 +1,20 @@
 import { Link } from "react-router-dom";
-import SpotlightCard from "../../components/cards/SpotlightCard";
 import Botao from "../../components/botao/Botao";
+import SpotlightCard from "../../components/cards/SpotlightCard";
+import { FaArrowLeft } from "react-icons/fa";
 
 function Projetos() {
   return (
     <div className="flex flex-col m-5 text-amber-50 p-5">
+      <div className="flex px-7">
+        <Link to="/" className="flex items-center gap-2">
+          <FaArrowLeft className="text-(--quaternaria) hover:text-(--quinternaria)" />
+          <span className="text-(--quaternaria) hover:text-(--quinternaria) font-black">
+            Voltar para o Início
+          </span>
+        </Link>
+      </div>
+
       <h2 className="text-center text-(--quinternaria) text-5xl font-bold m-8">
         Projetos Feitos
       </h2>
@@ -25,9 +35,7 @@ function Projetos() {
             </p>
           </div>
           <div className="flex justify-center items-center mt-5">
-            <Link
-              to="/projetos/velofit"
-            >
+            <Link to="/projetos/velofit">
               <Botao texto="Ver Detalhes" />
             </Link>
           </div>
@@ -48,8 +56,7 @@ function Projetos() {
             </p>
           </div>
           <div className="flex justify-center items-center mt-5">
-            <Link
-              to="/projetos/velogo">
+            <Link to="/projetos/velogo">
               <Botao texto="Ver Detalhes" />
             </Link>
           </div>
@@ -70,8 +77,7 @@ function Projetos() {
             </p>
           </div>
           <div className="flex justify-center items-center mt-5">
-            <Link
-              to="/projetos/comunidade">
+            <Link to="/projetos/comunidade">
               <Botao texto="Ver Detalhes" />
             </Link>
           </div>
