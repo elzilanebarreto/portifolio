@@ -4,6 +4,7 @@ import Destaque from "../../components/destaque/Destaque";
 import Habilidades from "../../components/habilidades/Habilidades";
 import Sobre from "../../components/sobre/Sobre";
 import Curriculo from "../../components/curriculo/Curriculo";
+import Contatos from "../../components/contatos/Contatos";
 
 function Home() {
   const { hash } = useLocation();
@@ -30,6 +31,10 @@ function Home() {
 
       <section id="habilidades">
         <Habilidades />
+      </section>
+
+      <section id="contato">
+        <Contatos />
       </section>
     </>
   );

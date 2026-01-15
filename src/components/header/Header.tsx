@@ -27,6 +27,11 @@ const Header = () => {
     setIsOpen(false);
   };
 
+  const scrollToContato = () => {
+    navigate("/#contato");
+    setIsOpen(false);
+  };
+
   return (
     <nav className="shadow-md bg-(--terciara)/10">
       <div
@@ -87,10 +92,10 @@ const Header = () => {
             </li>
             <li>
               <a
-                className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md"
-                href="#"
+                className="text-(--quaternaria) hover:bg-(--terciara) hover:text-(--primaria) px-3 py-2 rounded-md cursor-pointer"
+                onClick={scrollToContato}
               >
-                <Link to="/contatos">Contato</Link>
+                Contato
               </a>
             </li>
           </ul>
