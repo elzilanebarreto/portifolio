@@ -10,7 +10,7 @@ const Destaque = () => {
         </h2>
         <h3 className="text-(--quinternaria) text-4xl font-extrabold">
           <TextType
-            text={["Desenvolvedora Full-Stack", "Desenvolvedora Front-End", "Desenvolvedora Back-End"]}
+            text={["Desenvolvedora Full-Stack", "Analista de Dados"]}
             typingSpeed={75}
             pauseDuration={1800}
             showCursor={true}
