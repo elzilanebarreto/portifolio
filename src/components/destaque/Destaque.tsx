@@ -18,12 +18,15 @@ const Destaque = () => {
           />
         </h3>
         <p className="text-(--terciara) text-justify">
-          Desenvolvedora Full Stack com experiência tanto no ecossistema Java
-          quanto em JavaScript. No back-end, trabalho com Java e Spring Boot na
-          criação de APIs estruturadas e escaláveis. No front-end, atuo com
-          React, TypeScript, NestJS e Tailwind para desenvolver interfaces
-          modernas e fluidas. Busco sempre entregar soluções completas,
-          funcionais e alinhadas às melhores práticas de desenvolvimento.
+          Profissional de tecnologia com atuação em Desenvolvimento Full Stack e
+          Análise de Dados, unindo programação e visão analítica para gerar
+          soluções completas. Possuo experiência no ecossistema Java e
+          JavaScript, com back-end em NestJS e Spring Boot na construção de APIs
+          escaláveis. No front-end, utilizo React, TypeScript e Tailwind
+          para criar interfaces modernas. Na área de dados, aplico análise,
+          organização e interpretação de informações para apoiar decisões. Busco
+          sempre entregar soluções eficientes, bem estruturadas e orientadas a
+          resultados.
         </p>
       </div>
 
