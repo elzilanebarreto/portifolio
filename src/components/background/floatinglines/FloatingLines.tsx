@@ -57,7 +57,7 @@ uniform int lineGradientCount;
 
 const vec3 BLACK = vec3(0.0);
 const vec3 TERCIARA = vec3(232.0, 247.0, 238.0) / 255.0; 
-const vec3 PRIMARIA = vec3(11.0, 49.0, 66.0) / 255.0; 
+const vec3 PRIMARIA = vec3(11.0, 49.0, 75.0) / 255.0; 
 
 mat2 rotate(float r) {
   return mat2(cos(r), sin(r), -sin(r), cos(r));

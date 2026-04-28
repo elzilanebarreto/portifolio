@@ -33,7 +33,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="shadow-md bg-(--terciara)/10">
+    <nav className="shadow-md bg-(--terciara)/8">
       <div
         className="container shadow-lg rounded-2xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center 
                       justify-end lg:justify-center"
